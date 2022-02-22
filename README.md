@@ -18,6 +18,10 @@ Licensed under MIT. Totally free for private or commercial projects.
 
 > It is advised that you download this repo as opposed to cloning. This will avoid any accidental project commits to this repository.
 
+## Demo
+
+A working demo of this application can be found [here](http://authentication-in-react.andrewdyer.rocks). Use the credentials `admin` and `password` to authentcaite with the test user.
+
 ## Credits
 
 -   [Authentication in React Applications](https://kentcdodds.com/blog/authentication-in-react-applications) by [Kent C. Dodds](https://kentcdodds.com)
