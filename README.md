@@ -1,6 +1,6 @@
 # Authentication in React
 
-Handling authentication in React Applications.
+![App preview](https://pbs.twimg.com/media/FMNlDt9XEAIVRi0?format=jpg&name=4096x4096)
 
 ## Introduction
 
