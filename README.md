@@ -6,7 +6,7 @@
 
 This proof-of-concept has been heavily inspired by a [blog post](https://kentcdodds.com/blog/authentication-in-react-applications) I read by Kent C. Dodds (which I encourage you to go and read also). What this application does is checks to see if the current user is authenticated. If they are not, then they are restricted access to routes specifically for authenticated users.
 
-I have achieved this by wrapped the `<App />` component in a couple of providers. Firstly the `<AuthProvider />` is responsible for bootstrapping the app data. Then secondly the `<UserProvider />` is responsible for keeping the user data up to date in memory.
+I have achieved this by wrapping the `<App />` component in a couple of react providers. Firstly the `<AuthProvider />` is responsible for bootstrapping the app data. Then secondly the `<UserProvider />` is responsible for keeping the user data up to date in memory.
 
 The `<App/ >` component will render the `<UnauthenticatedApp />` component until the current users data is retrieved. Once that data has been fulfilled it is determined that the user is logged in and the `<AuthenticatedApp />` component will be rendered instead. It will be literally impossible to render one side of the app or the other if there is no user.
 
